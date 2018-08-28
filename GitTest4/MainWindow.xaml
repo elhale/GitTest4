@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <DatePicker HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="31,50,0,0"/>
+        <Label x:Name="lblDate" Content="Date" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="31,24,0,0" Width="101" Background="#FF7FA183"/>
+
     </Grid>
 </Window>
